@@ -8,7 +8,7 @@ body:
     attributes:
       label: As a ...
       description: List the persona this user story applies to.
-      placeholder: "Who?"
+      placeholder: "Streamer"
     validations:
       required: true
   - type: input
@@ -16,7 +16,7 @@ body:
     attributes:
       label: I want to ...
       description: What the persona wants to accomplish?
-      placeholder: "What?"
+      placeholder: "I want to display live messages."
     validations:
       required: true
   - type: input
@@ -24,7 +24,7 @@ body:
     attributes:
       label: So that ...
       description: Why they want to accomplish that thing?
-      placeholder: "Why?"
+      placeholder: "So I can get donations"
     validations:
       required: true
   - type: textarea
@@ -33,8 +33,11 @@ body:
       label: Tasks
       description: "List of task-issues necessary to complete part of this user story."
       placeholder: |
-        Create a "Task Issue" then use the text-area's create a task list linking each task to this user-story with the # syntax."
-        e.g. - [ ] #5555"
+        -customizable text
+        -scroll speed
+        -color
+        -blinking (LED on/off)
+        -time limit for display
     validations:
       required: true
   - type: textarea
