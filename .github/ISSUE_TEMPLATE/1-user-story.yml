@@ -16,7 +16,7 @@ body:
     attributes:
       label: I want to ...
       description: What the persona wants to accomplish?
-      placeholder: "I want to display live messages."
+      placeholder: "display live messages."
     validations:
       required: true
   - type: input
@@ -40,25 +40,3 @@ body:
         -time limit for display
     validations:
       required: true
-  - type: textarea
-    id: acceptance-criteria
-    attributes:
-      label: Acceptance Criteria
-      description: Metric of Story Progress
-      placeholder: |
-        * List of requirements at user or system level
-        * May also include screenshots, system flow diagrams, or sequence diagrams here.
-        * Must be specific to the User Story
-        * Must be met to ensure story is complete.
-    validations:
-      required: false
-  - type: textarea
-    id: progress
-    attributes:
-      label: Definition of Done
-      description: Metric of Sprint Progress
-      placeholder: |
-        * List of criteria for ALL User Stories
-        * Sprint work only complete once all criteria are met
-    validations:
-      required: false
